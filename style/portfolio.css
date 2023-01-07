@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    margin-bottom: 60px;
+
+}
+/* header and navigation style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+
+}
+.text-primary{
+    color:#FD6E0A;
+ }
+.btn-primary{
+    color: white;
+    font-size: 20px;
+    font-weight: 200px;
+    border: 0px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+.contact{
+    font-size: 20px;
+    font-weight: 200px;
+    border: 0px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    margin-left: 30px;
+    background:none;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+}
+.nav-title{
+width: 121px;
+height: 61px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+ .banner{
+    margin: 0px 200px;
+    align-items: center;
+    display: flex;
+ }
+ .hello{
+    font-weight: 600px;
+    font-size: 45px;
+    margin-bottom: 5px;
+
+ }
+ .dev-name{
+    font-weight: 700;
+    font-size: 85px;
+    margin-bottom: 20px;
+    
+
+ }
+ .dev-des{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+
+ }
+ .main{
+    max-width: 1144px;
+    margin: o auto;
+ }
+ .about{
+    margin: 131px 300px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding: 131px 157px;
+    
+ }
+
+ .heading{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+ }
+
+ .about-des{
+   color: #757575;
+   margin-bottom: 30px;
+   font-size: 18px;
+ }
+
+.about-info-continer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about-title{
+    color: #757575;
+    font-size: 20px;
+    text-align: center;
+
+}
+.about-description{
+    font-weight: 700;
+    font:20px;
+    color: #474747;
+}
