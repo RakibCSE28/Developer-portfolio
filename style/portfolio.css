@@ -7,6 +7,8 @@
     background-image: url('../images/header_bg.png'),url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    position: relative;
+    height: 837px;;
     margin-bottom: 60px;
 
 }
@@ -14,7 +16,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
 
 }
 .text-primary{
@@ -55,13 +57,14 @@ nav li{
     
 }
  .banner{
-    margin: 0px 200px;
+    margin-top: 340px;
     align-items: center;
     display: flex;
+    justify-content: space-around;
  }
  .hello{
     font-weight: 600px;
-    font-size: 45px;
+    font-size: 47px;
     margin-bottom: 5px;
 
  }
